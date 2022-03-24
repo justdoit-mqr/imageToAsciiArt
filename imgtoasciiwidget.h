@@ -29,8 +29,6 @@ class ImgToAsciiWidget : public QWidget
 public:
     ImgToAsciiWidget(QWidget *parent = 0);
     ~ImgToAsciiWidget();
-    void initParamWidget();//初始化参数配置部件
-    void initImgWidget();//初始化字符画显示部件
 
 private slots:
     void openImgFileSlot();//打开图片文件
@@ -41,6 +39,10 @@ private slots:
     void setHtmlStrEnabled(bool enabled);//设置彩色字符集是否使能
 
 private:
+    void initParamWidget();//初始化参数配置部件
+    void initImgWidget();//初始化字符画显示部件
+
+
     ImgToAsciiArt *imgToAsciiArt;//图片转换的对象
 
     QWidget *setParamWidget;//各项参数的部件的容器

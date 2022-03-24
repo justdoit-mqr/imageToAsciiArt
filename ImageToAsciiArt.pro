@@ -23,4 +23,4 @@ RESOURCES += \
     image.qrc
 
 DISTFILES += \
-    readme.txt
+    readme.md

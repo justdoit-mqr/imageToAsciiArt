@@ -5,6 +5,7 @@
  *@brief:  实现将给定的图片(QImage)转换成对应的字符串(Ascii码:黑白和html:彩色)
  */
 #include "imgtoasciiart.h"
+#include <QDebug>
 
 ImgToAsciiArt::ImgToAsciiArt(QObject *parent) : QObject(parent)
 {
